@@ -25,3 +25,8 @@ dependencies {
 test {
 	useJUnitPlatform()
 }
+
+
+bootJar {
+	mainClassName = 'com.producthunt.pandemic.PandemicApplication'
+}
